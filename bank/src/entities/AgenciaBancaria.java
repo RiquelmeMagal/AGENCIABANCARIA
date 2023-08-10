@@ -38,7 +38,7 @@ public class AgenciaBancaria {
 	}
 
 	
-	private ContaBancaria buscarConta(int numeroConta) {
+	public ContaBancaria buscarConta(int numeroConta) {
 		for (ContaBancaria conta : contas) {
 			if (conta.getConta() == numeroConta) {
 				return conta;
